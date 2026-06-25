@@ -1,6 +1,6 @@
 MASTER CAREER PROFILE
 Anoopa S
-Research Engineer | Systems Software Engineer | C++ | Windows Applications | AI Integration
+Research Engineer | Systems Software Engineer | C++ | Windows Applications | AI & LLM Integration
 
 1. PROFESSIONAL OVERVIEW
 Systems software engineer with approximately 5 years of experience developing high-performance Windows desktop applications, backend C++ systems, and AI-enabled software for commercial display platforms.
@@ -50,6 +50,8 @@ Performance Engineering
 Artificial Intelligence Integration
 • Computer vision model development
 • Screen classification systems
+• LLM integration for intelligent application behavior
+• OCR-based text extraction and validation systems
 • AI model deployment into production device software
 • AI inference pipeline optimization
 • Model size reduction and GPU utilization optimization
@@ -121,11 +123,43 @@ Career Progression
 Grade	Period
 Research Engineer Grade 1	2021 – 2023
 Research Engineer Grade 2	2023 – 2025
-Research Engineer Grade 3	2025 – Present
+Senior Research Engineer	2025 – Present
 Promotion progression demonstrates consistent technical growth and engineering impact within the organization.
 
 5. MAJOR SOFTWARE PLATFORMS DEVELOPED
-AI Display Preset System -2024-2026
+AI Screen Split System - 2025-2026
+Developed an AI-powered screen split recommendation system that uses LLM to analyze and identify application windows present on the user's screen, suggests optimal screen split configurations, provides a real-time preview, and applies the selected layout to the monitor upon user acceptance.
+
+Contributions
+• Designed and implemented LLM-based window detection and identification pipeline
+• Developed intelligent screen split recommendation engine based on detected window content and layout
+• Built real-time preview system allowing users to visualize suggested split configurations before applying
+• Implemented monitor layout application mechanism to apply accepted split configurations
+• Developed user feedback and learning system to adapt recommendations based on user preferences over time
+• Integrated preference learning to continuously improve split suggestions based on historical user choices
+
+Impact
+• Enabled intelligent, context-aware screen layout management for monitor users
+• Reduced manual effort in organizing multi-window workspaces
+• Improved user experience through adaptive learning based on individual usage patterns
+
+LG Screen Hub - 2025-2026
+Contributed to the development of LG Screen Hub, a unified software platform consolidating Smart Monitor Control Stack, AI Display Preset System, and LG Switch functionality into a single integrated product.
+
+Contributions
+• Designed microservice architecture for the Smart Monitor Control Stack within the unified platform
+• Integrated AI model pipeline for display preset automation within the Screen Hub ecosystem
+• Developed LG Virtual Wallpaper feature and scheduler integration for automated wallpaper management
+• Contributed to defect fixing and stabilization across the integrated platform
+• Supported end-to-end product stabilization during FC, VQP, and SIT validation phases
+• Ensured seamless integration of previously independent modules into the consolidated architecture
+
+Impact
+• Delivered a unified monitor management experience combining control, AI automation, and switching capabilities
+• Improved platform stability and reliability through systematic defect resolution
+• Streamlined user experience by consolidating multiple standalone applications into a single product
+
+AI Display Preset System - 2024-2025
 Developed an AI-powered screen classification system integrated into gaming monitor software that automatically adjusts monitor display presets depending on detected screen content.
 
 Contributions
@@ -147,7 +181,6 @@ Experimented with multiple augmentation techniques and hyperparameter configurat
 Impact
 • Model accuracy improved from 60% to 90%
 • Enabled automatic display optimization for gaming monitor users
-• Successfully deployed using Docker for consistent production environments
 
 Smart Monitor Control System- 2024
 Developed system software enabling smart monitors to function both as traditional displays and as webOS TV platforms.
@@ -197,6 +230,21 @@ Contributions
 
 Impact
 • Simplified deployment and update process for the monitor software ecosystem
+
+OCR-Based String Cropping Automation Tool - 2025
+Developed an automation tool leveraging Optical Character Recognition (OCR) to identify and extract string content from screen captures by comparing against original reference strings, enabling automated validation of on-screen text rendering and cropping accuracy.
+
+Contributions
+• Designed and implemented OCR-based screen content extraction pipeline
+• Developed comparison engine to match extracted screen text against original reference strings
+• Built automated string cropping detection and validation system
+• Implemented image processing pipeline for accurate text region identification from screen captures
+• Created automated reporting for string rendering validation results
+
+Impact
+• Automated manual string verification processes, reducing validation effort significantly
+• Enabled accurate detection of text cropping and rendering issues in display software
+• Improved quality assurance efficiency for UI text rendering validation
 
 Medical Monitor Calibration Platform- 2022
 Developed calibration software for medical display monitors, transforming a single-monitor calibration system into a parallel multi-device calibration platform capable of calibrating 10-15 monitors simultaneously.
@@ -313,6 +361,7 @@ CI/CD
 
 AI-Assisted Development
 • Usage of AI coding assistants and automation agents to accelerate development workflows
+Created code review agents, jira comment update agent, jira ticket analysis and suggest the issue tool etc
 
 10. LEADERSHIP AND MENTORING
 Technical Training and Knowledge Sharing
@@ -325,10 +374,6 @@ Project Leadership
 • Led development of LG UltraGear Studio Software from architecture design to implementation
 • Reviewed and guided implementation performed by other engineers
 • Provided technical mentorship to team members on complex system design challenges
-
-Code Review Responsibilities
-• Performed regular code reviews ensuring code quality and maintainability
-• Guided junior engineers on best practices and design patterns
 
 11. INTERNATIONAL COLLABORATION EXPERIENCE
 South Korea
@@ -367,7 +412,7 @@ Recognition and Performance
 • Received internal engineering awards for software contributions
 • Received high achievers award for technical excellence 2023
   Received high achievers award for technical excellence 2026
-• Selected as a High Potential Member within the organization
+• Selected as a High Potential Member within the organization for 2 contnous years 2025 and 2026
 
 
 14. EDUCATION
