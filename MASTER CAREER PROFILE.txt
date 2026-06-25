@@ -1,0 +1,405 @@
+MASTER CAREER PROFILE
+Anoopa S
+Research Engineer | Systems Software Engineer | C++ | Windows Applications | AI Integration
+
+1. PROFESSIONAL OVERVIEW
+Systems software engineer with approximately 5 years of experience developing high-performance Windows desktop applications, backend C++ systems, and AI-enabled software for commercial display platforms.
+
+Specialized in designing scalable multi-process architectures capable of controlling and managing multiple monitor devices simultaneously, integrating AI-driven automation features, and building high-performance backend systems using modern C++.
+
+Strong experience in device communication, networking protocols, real-time system communication frameworks, and Windows system-level APIs. Proven ability to build production-grade software platforms deployed globally in commercial monitor products, including gaming monitors, smart monitors, and medical display systems.
+
+Successfully delivered multiple commercialized software platforms with less than 5% defect rates, designed AI-powered display automation systems, and optimized AI inference pipelines for real-time device software integration.
+
+2. CORE TECHNICAL EXPERTISE
+Systems Engineering
+• Multi-process software architecture design
+• Multi-monitor device management systems
+• Hardware control software platforms
+• Real-time system communication frameworks
+• Device communication software architecture
+• Parallel processing system design
+
+Windows Software Development
+• C# desktop application development using WPF
+• MVVM architecture and PRISM framework
+• UI–backend integration for complex device control systems
+• Windows system-level API integration
+
+C++ Backend Development
+• Modern C++ for performance-critical modules
+• Multithreading and concurrency control
+• Thread synchronization and parallel processing
+• Backend service development for hardware control systems
+
+Device Communication & Networking
+• Windows Messaging API
+• Named Pipes (IPC communication)
+• TCP/IP networking
+• UDP communication protocols
+• WebSocket communication frameworks
+• Real-time device command processing
+
+Performance Engineering
+• Performance debugging using Visual Studio Profiler
+• GPU utilization analysis and optimization
+• System resource usage optimization
+• Latency reduction for real-time systems
+• Memory and thread optimization
+
+Artificial Intelligence Integration
+• Computer vision model development
+• Screen classification systems
+• AI model deployment into production device software
+• AI inference pipeline optimization
+• Model size reduction and GPU utilization optimization
+• Docker-based AI model deployment
+
+Automation & Data Engineering
+• Dataset collection automation tools
+• Data preprocessing and cleaning pipelines
+• Large-scale dataset management
+• Image augmentation pipelines
+
+Development Processes
+• Agile development methodology
+• Continuous integration and build systems
+• Code review and collaborative engineering workflows
+
+AI-Assisted Development
+• Git-based development workflows
+• AI coding tools such as GitHub Copilot
+• Agent-based development automation for repetitive tasks
+
+3. PROGRAMMING LANGUAGES AND TECHNOLOGIES
+Programming Languages
+Language	Proficiency Level
+C++	Expert
+C#	Advanced
+Python	Advanced
+Dart	Basic
+Frameworks & Technologies
+WPF
+.NET Framework
+MVVM
+PRISM
+Flutter
+
+Systems Programming
+Multithreading
+Thread synchronization
+Multi-process architecture
+Inter-process communication (IPC)
+Parallel processing pipelines
+
+Communication Protocols & APIs
+Windows Messaging API
+Named Pipes
+WebSockets
+TCP/IP
+UDP
+
+AI / Machine Learning
+PyTorch
+Vision Transformers (ViT)
+Computer Vision
+
+Tools
+Git
+CI/CD pipelines
+Docker
+Visual Studio Profiler
+
+Operating Systems
+Windows
+
+4. PROFESSIONAL EXPERIENCE
+Research Engineer
+Aug 2021 – Present (5 Years)
+
+Career Progression
+Grade	Period
+Research Engineer Grade 1	2021 – 2023
+Research Engineer Grade 2	2023 – 2025
+Research Engineer Grade 3	2025 – Present
+Promotion progression demonstrates consistent technical growth and engineering impact within the organization.
+
+5. MAJOR SOFTWARE PLATFORMS DEVELOPED
+AI Display Preset System -2024-2026
+Developed an AI-powered screen classification system integrated into gaming monitor software that automatically adjusts monitor display presets depending on detected screen content.
+
+Contributions
+• Designed and implemented the complete AI training pipeline
+• Built dataset collection tools for automated screenshot capture
+• Developed dataset preprocessing and augmentation pipelines
+• Implemented PyTorch-based training and evaluation scripts
+• Integrated trained AI models into monitor control software
+• Deployed AI models using Docker containerization
+
+Used Vision Transformer (ViT-Basic) architecture and trained the model from scratch.
+
+Constructed a dataset containing approximately 50,000 images per class across 10 screen categories.
+
+Developed automated Python scripts for dataset cleaning, reducing manual labeling effort by approximately 60%.
+
+Experimented with multiple augmentation techniques and hyperparameter configurations to improve classification accuracy.
+
+Impact
+• Model accuracy improved from 60% to 90%
+• Enabled automatic display optimization for gaming monitor users
+• Successfully deployed using Docker for consistent production environments
+
+Smart Monitor Control System- 2024
+Developed system software enabling smart monitors to function both as traditional displays and as webOS TV platforms.
+
+Contributions
+• Developed WebSocket-based communication architecture
+• Implemented networking modules using TCP/IP and UDP protocols
+• Implemented Windows Messaging API and Named Pipes for IPC
+• Built real-time monitor control and monitoring functionality
+• Integrated UI and backend services for device management
+
+Impact
+• Enabled efficient communication between monitor hardware and software
+• Improved reliability of multi-monitor control environments
+
+LG UltraGear Studio Software-2023- 2024
+Developed software platform used to configure and control gaming monitors in the UltraGear product line.
+
+Contributions
+• Implemented monitor device communication modules
+• Designed system architecture supporting multi-monitor environments
+• Integrated WPF UI components with backend device control services
+• Developed communication pipelines for monitor configuration and control
+
+Impact
+• Platform used commercially for gaming monitor configuration and control
+
+Led the development of this project after designing the initial system architecture and core modules, while also reviewing and guiding implementation performed by other engineers.
+
+LG Switch Software
+Contributed to stabilization and feature integration of monitor management functionalities within the LG Switch platform.
+
+Contributions
+• Resolved multiple functional issues identified during FC, VQP, and SIT validation phases
+• Integrated Smart Monitor Control functionality into the LG Switch application
+• Integrated AI Display Preset features into the same software platform
+• Improved overall application stability during release cycles
+
+LG App Installer Platform 2023-2024
+Developed Windows application functioning as a software marketplace for monitor applications, enabling installation and update of monitor-related software components.
+
+Contributions
+• Implemented application management system using UWP
+• Developed installation and update workflows
+• Designed backend services responsible for update deployment
+• Implemented IPC communication between installer services and UI applications
+
+Impact
+• Simplified deployment and update process for the monitor software ecosystem
+
+Medical Monitor Calibration Platform- 2022
+Developed calibration software for medical display monitors, transforming a single-monitor calibration system into a parallel multi-device calibration platform capable of calibrating 10-15 monitors simultaneously.
+
+Contributions
+• Redesigned entire software architecture to separate calibration and testing workflows
+• Transformed sequential single-monitor calibration into parallel multi-monitor processing pipeline
+• Implemented IPC-based communication using Named Pipes
+• Developed multi-device calibration management modules supporting 10-15 simultaneous calibrations
+• Implemented thread synchronization and parallel processing for concurrent device operations
+
+Impact
+• Enabled simultaneous calibration of 10-15 medical monitors in a single session
+• Significantly reduced total calibration time through parallel processing
+• Improved software reliability and maintainability
+• Enhanced production efficiency for medical display manufacturing
+
+webOS Monitor Home Launcher Application (Flutter Migration)-2021
+Developed webOS monitor software home launcher application using Flutter/Dart as part of technology migration evaluation from HTML/CSS-based implementation.
+
+Contributions
+• Migrated existing HTML/CSS-based home launcher application to Flutter framework using Dart
+• Developed complete functional implementation of webOS monitor home screen
+• Conducted performance comparison analysis between HTML/CSS and Flutter implementations
+• Evaluated rendering performance, memory usage, and application responsiveness
+• Documented findings to support technology stack decision-making
+
+Impact
+• Provided data-driven insights for technology migration decisions
+• Demonstrated cross-platform development capabilities
+• Contributed to organization's technology evaluation processes
+
+LED Simulation System -2021
+Developed internal software tools used to simulate LED behavior and monitor configurations during development and testing phases.
+
+Contributions
+• Designed algorithms to simulate monitor LED behavior based on audio signals and visual screen activity
+• Developed internal simulation tools used for testing LED control logic before deployment on physical hardware
+
+6. AI / MACHINE LEARNING CONTRIBUTIONS
+Developed AI models used for automatic screen classification in gaming monitor software.
+
+Dataset Development
+• Created large-scale datasets containing tens of thousands of images per class
+
+Data Cleaning
+Developed Python scripts for:
+
+• Duplicate image removal
+• Incorrect label detection
+• Dataset restructuring
+
+Data Augmentation
+Implemented augmentation techniques including:
+
+• Random crop
+• CutMix augmentation
+
+Model Training
+• Developed PyTorch training pipelines
+• Improved model accuracy from 60% to 90%
+
+Model Optimization
+• Reduced model size from 360MB → 45MB through quantization and architecture optimization
+• Further optimized model size toward ~20MB
+
+Inference Optimization
+• Reduced GPU utilization from ~50% → ~20–25%
+• Reduced prediction latency using in-memory inference pipelines
+
+Model Deployment
+• Deployed AI models using Docker containerization for consistent production environments
+• Implemented containerized inference pipelines for reliable deployment
+
+Attention Map Optimization
+Optimized attention map generation pipeline to significantly reduce computation time.
+
+7. DATA ENGINEERING AND DATASET DEVELOPMENT
+Developed tools for large-scale dataset generation and management.
+
+• Automatic screenshot capture tools
+• Dataset organization and restructuring tools
+• Image duplication detection systems
+• Label validation tools
+
+Managed datasets containing hundreds of thousands of images across multiple classes.
+
+8. PERFORMANCE ENGINEERING CONTRIBUTIONS
+Performed extensive optimization of both software systems and AI models.
+
+Key improvements:
+
+• Reduced GPU utilization during AI inference
+• Reduced model size for efficient deployment
+• Reduced inference latency
+• Optimized attention map generation performance
+• Improved system responsiveness in monitor control applications
+• Transformed sequential calibration processes into parallel pipelines
+
+Used Visual Studio Profiler and runtime performance analysis tools to identify and eliminate system bottlenecks.
+
+9. SOFTWARE DEVELOPMENT PRACTICES
+Agile Development
+• Sprint planning, development, and reviews
+
+Code Review
+• Peer code review ensuring maintainability and reliability
+
+Version Control
+• Daily Git-based collaborative development
+
+CI/CD
+• Integration with build and release pipelines
+
+AI-Assisted Development
+• Usage of AI coding assistants and automation agents to accelerate development workflows
+
+10. LEADERSHIP AND MENTORING
+Technical Training and Knowledge Sharing
+• Conducted multiple training sessions on Data Structures and Algorithms (DSA) within the organization
+• Trained team members preparing for software proficiency tests
+• Provided guidance on algorithmic problem-solving and coding best practices
+• Contributed to organization's technical skill development initiatives
+
+Project Leadership
+• Led development of LG UltraGear Studio Software from architecture design to implementation
+• Reviewed and guided implementation performed by other engineers
+• Provided technical mentorship to team members on complex system design challenges
+
+Code Review Responsibilities
+• Performed regular code reviews ensuring code quality and maintainability
+• Guided junior engineers on best practices and design patterns
+
+11. INTERNATIONAL COLLABORATION EXPERIENCE
+South Korea
+June 2023 – August 2023
+
+Worked onsite with global engineering teams during monitor product launch cycles.
+
+Responsibilities
+• Resolved critical networking issues that could not be reproduced in development environments
+• Debugged performance issues related to virtual wallpaper rendering and display processing
+• Supported entire FC, QE, and SIT validation event cycles onsite
+• Coordinated with cross-functional engineering teams during product launch cycles
+• Provided immediate technical support for issues requiring onsite debugging
+
+12. CERTIFICATIONS AND TRAINING
+Google IT Support Professional Certificate | Coursera by Google
+• Technical Support Fundamentals
+• The Bits and Bytes of Computer Networking
+• Operating Systems and You: Becoming a Power User
+• System Administrator and IT Infrastructure
+• IT Security: Defence Against Digital Dark Arts
+
+Programming and Development
+• Python (Core and Advanced) | Edufabrica Training
+
+Artificial Intelligence and Machine Learning
+• Artificial Intelligence with Machine Learning, Deep Learning | Coursera | Completed August 2024
+
+13. ACHIEVEMENTS
+Technical Achievements
+• Cleared internal competitive programming challenge (CodeJam)
+• Cleared internal software efficiency test(SWPCT)
+
+
+Recognition and Performance
+• Received internal engineering awards for software contributions
+• Received high achievers award for technical excellence 2023
+  Received high achievers award for technical excellence 2026
+• Selected as a High Potential Member within the organization
+
+
+14. EDUCATION
+Bachelor of Engineering
+Electronics and Communication Engineering
+
+JSS Science and Technology University, Mysore
+
+15. CORE STRENGTHS
+Technical Strengths
+• Strong problem-solving and algorithm development skills
+• Expertise in Windows desktop software development
+• Strong C++ backend engineering capability
+• Ability to design scalable multi-process architectures
+• Experience integrating AI into production systems
+• Strong understanding of device communication and networking protocols
+• Expertise in AI model performance optimization
+• GPU utilization reduction and model efficiency improvements
+• Focus on performance optimization and system efficiency
+
+Professional Strengths
+• Strong curiosity for learning new technologies and adapting quickly
+• Effective team collaboration and cross-functional communication
+• Technical mentoring and knowledge sharing capabilities
+• Ability to work effectively in international team environments
+• Strong documentation and communication skills
+
+16. PROFILE SUMMARY
+Attribute	Details
+Total Experience	5 Years
+Current Role	Research Engineer Grade 3
+Primary Languages	C++ (Expert), C# (Advanced), Python (Advanced)
+Domain Expertise	Display Systems, AI Integration, Windows Applications
+Key Achievement	Production systems with <5% defect rates
+Recognition	High Potential Member, 3x Retention Bonus

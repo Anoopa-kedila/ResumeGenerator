@@ -1,0 +1,199 @@
+=\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+% Page setup
+\geometry{
+    a4paper,
+    left=0.5in,
+    right=0.5in,
+    top=0.5in,
+    bottom=0.5in
+}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Colors
+\definecolor{headercolor}{RGB}{0, 51, 102}
+\definecolor{sectioncolor}{RGB}{0, 102, 204}
+\definecolor{linkcolor}{RGB}{0, 102, 204}
+
+% Hyperlink setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor,
+    urlcolor=linkcolor
+}
+
+% Section formatting
+\titleformat{\section}
+    {\color{sectioncolor}\Large\bfseries\uppercase}
+    {}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+
+\titleformat{\subsection}
+    {\bfseries\large}
+    {}{0em}{}
+\titlespacing*{\subsection}{0pt}{6pt}{2pt}
+
+% Custom commands
+\newcommand{\resumeSubheading}[4]{
+    \vspace{2pt}
+    \begin{tabular*}{\textwidth}[t]{@{}l@{\extracolsep{\fill}}r@{}}
+        \textbf{#1} & \textbf{#2} \\
+        \textit{#3} & \textit{#4} \\
+    \end{tabular*}
+    \vspace{-4pt}
+}
+
+\newcommand{\resumeItem}[1]{
+    \item\small{#1}
+    \vspace{-2pt}
+}
+
+% Begin document
+\begin{document}
+
+% Header with photo
+\begin{minipage}[t]{0.15\textwidth}
+    \vspace{0pt}
+    % Circular photo frame
+    \begin{tikzpicture}
+        \clip (0,0) circle (1.2cm);
+        \node at (0,-0.5) {\includegraphics[width=2.5cm]{passport_Size_pic.jpg}};
+        % If you want a border around the photo, uncomment the next line:
+        % \draw[line width=0.5mm, color=headercolor] (0,0) circle (1.2cm);
+    \end{tikzpicture}
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.83\textwidth}
+    \vspace{0pt}
+    \raggedright
+    {\Huge\bfseries\color{headercolor} ANOOPA S} \\
+    \vspace{3pt}
+    {\large Systems Software Engineer | C++ | Windows Applications | AI Integration} \\
+    \vspace{5pt}
+    {\small
+    \faEnvelope\ [anoopakedila@gmail.com] \quad
+    \faPhone\ [9148522162] \quad
+    \faLinkedin\ [www.linkedin.com/in/anoopa-s-07b68318b] \quad
+    }
+\end{minipage}
+
+\vspace{-6pt}
+
+% Professional Summary
+\section{Professional Summary}
+\small{Systems Software Engineer with 5 years of experience developing high-performance Windows desktop applications and AI-enabled software platforms deployed globally across gaming, smart, and medical display products. Expert in C++ backend systems, multi-process architecture design, and AI model integration with proven track record of delivering production-grade software with <5\% defect rates. Optimized AI inference pipelines reducing GPU utilization by 50\% and model size by 87\%, while improving accuracy from 60\% to 90\%.}
+
+\vspace{2pt}
+
+% Technical Skills
+\section{Technical Skills}
+\begin{tabular}{@{}p{0.18\textwidth}p{0.80\textwidth}@{}}
+    \textbf{Languages:} & C++ (Expert) | C\# (Advanced) | Python (Advanced) | Dart (Basic) \\[2pt]
+    \textbf{Frameworks:} & WPF | .NET | MVVM | PRISM | PyTorch | Flutter \\[2pt]
+    \textbf{Systems:} & Multi-threading | IPC | Parallel Processing | Multi-process Architecture \\[2pt]
+    \textbf{Protocols:} & Windows Messaging API | Named Pipes | WebSockets | TCP/IP | UDP \\[2pt]
+    \textbf{AI/ML:} & Vision Transformers (ViT) | Computer Vision | Model Optimization | Docker \\[2pt]
+    \textbf{Tools:} & Git | CI/CD | Docker | Visual Studio Profiler \\[2pt]
+    \textbf{Platforms:} & Windows \\
+\end{tabular}
+
+\vspace{2pt}
+
+% Professional Experience
+\section{Professional Experience}
+
+\resumeSubheading
+    {Research Engineer Grade 3}{2025 -- Present}
+    {LG Soft India Pvt Ltd}{}
+    \begin{itemize}[leftmargin=12pt, itemsep=1pt]
+        \resumeItem{\textbf{Deployed} AI Display Preset System using Docker containerization, implementing containerized inference pipelines for reliable production deployment across gaming monitors globally}
+        \resumeItem{\textbf{Optimized} AI inference attention map generation pipeline, reducing computation time by 70\% and improving real-time responsiveness for 50K+ deployed gaming monitors}
+        \resumeItem{\textbf{Conducted} 12+ technical training sessions on Data Structures and Algorithms for team members preparing for software proficiency tests, resulting in 90\% pass rate}
+        \resumeItem{\textbf{Led} code review responsibilities ensuring code quality and maintainability, providing technical mentorship to team members on complex system design challenges}
+    \end{itemize}
+
+\resumeSubheading
+    {Research Engineer Grade 2}{2023 -- 2025}
+    {LG Soft India Pvt Ltd}{}
+    \begin{itemize}[leftmargin=12pt, itemsep=1pt]
+        \resumeItem{\textbf{Developed} AI-powered screen classification system (AI Display Preset) using Vision Transformer (ViT-Basic) for gaming monitors, improving model accuracy from 60\% to 90\% across 10 content categories with 50K+ images per class}
+        \resumeItem{\textbf{Engineered} automated dataset collection and preprocessing pipelines in Python, processing 500K+ images and reducing manual labeling effort by 60\% through duplicate removal and label validation algorithms}
+        \resumeItem{\textbf{Optimized} AI model from 360MB to 45MB (87\% reduction) through quantization and architecture optimization, reducing GPU utilization from 50\% to 20-25\% during real-time inference}
+        \resumeItem{\textbf{Led} LG UltraGear Studio software development from architecture design through deployment, managing 2-engineer team and conducting code reviews for gaming monitor configuration platform}
+        \resumeItem{\textbf{Implemented} WebSocket-based communication architecture for Smart Monitor Control System using TCP/IP, UDP, Windows Messaging API, and Named Pipes for real-time multi-monitor control}
+        \resumeItem{\textbf{Developed} LG App Installer platform using UWP with automated installation/update workflows; integrated AI Display Preset and Smart Monitor features into LG Switch, resolving 25+ critical defects during validation phases}
+        \resumeItem{\textbf{Resolved} critical networking and rendering issues during 3-month onsite assignment in South Korea, supporting FC, QE, and SIT validation cycles for international product launches}
+    \end{itemize}
+
+\resumeSubheading
+    {Research Engineer Grade 1}{Aug 2021 -- 2023}
+    {LG Soft India Pvt Ltd}{}
+    \begin{itemize}[leftmargin=12pt, itemsep=1pt]
+        \resumeItem{\textbf{Designed} parallel multi-device calibration platform enabling simultaneous calibration of 10-15 medical monitors (vs. previous sequential single-monitor processing), reducing total calibration time by 85\% through IPC-based Named Pipes architecture and thread synchronization}
+        \resumeItem{\textbf{Migrated} webOS monitor home launcher from HTML/CSS to Flutter/Dart, conducting performance analysis comparing rendering speed, memory usage, and responsiveness to support technology stack decisions}
+        \resumeItem{\textbf{Designed} LED simulation algorithms processing audio signals and visual screen activity for internal testing tools, reducing physical hardware testing requirements by 50\%}
+    \end{itemize}
+
+\vspace{2pt}
+
+% Key Projects
+\section{Key Projects \& Achievements}
+
+\textbf{AI Display Preset System} \\
+\small{Architected end-to-end AI training pipeline and production deployment for automatic display optimization system deployed in gaming monitors globally}
+
+\vspace{2pt}
+
+\textbf{Medical Monitor Calibration Platform} \\
+\small{Transformed sequential single-monitor calibration into parallel multi-device system supporting 10-15 simultaneous calibrations through thread synchronization and parallel processing architecture}
+
+\vspace{2pt}
+
+\textbf{LG UltraGear Studio Software} \\
+\small{Led complete software platform development for gaming monitor configuration, implementing multi-monitor environment support and WPF-based device control services}
+
+\vspace{2pt}
+
+% Certifications
+\section{Certifications}
+\begin{itemize}[leftmargin=12pt, itemsep=1pt]
+    \item \textbf{Artificial Intelligence with Machine Learning, Deep Learning} | Coursera | Aug 2024
+    \item \textbf{Google IT Support Professional Certificate} | Coursera by Google
+    \item \textbf{Python (Core and Advanced)} | Edufabrica Training
+\end{itemize}
+
+\vspace{2pt}
+
+% Recognition
+\section{Recognition}
+\begin{itemize}[leftmargin=12pt, itemsep=1pt]
+    \item \textbf{High Achievers Award} for Technical Excellence | 2022, 2026
+    \item \textbf{High Potential Member} designation for engineering contributions
+    \item \textbf{Cleared Internal Software Efficiency Test (SWPCT)} and CodeJam competitive programming challenge
+\end{itemize}
+
+\vspace{2pt}
+
+% Education
+\section{Education}
+\textbf{Bachelor of Engineering in Electronics and Communication Engineering} \\
+JSS Science and Technology University, Mysore
+
+\end{document}

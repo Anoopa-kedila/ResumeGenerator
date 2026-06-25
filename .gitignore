@@ -1,0 +1,38 @@
+# Generated output files
+job_analysis_*.txt
+skills_gap_*.txt
+resume_*_report.txt
+resume_review_*.txt
+interview_prep_*.txt
+cover_letter_*.txt
+cover_mail_*.txt
+
+# Generated resumes (keep only template)
+resume_*.tex
+!resume template.txt
+
+# Misc
+.DS_Store
+.git/
+*.swp
+*.swo
+*~
+.vs/
+.vscode/
+node_modules/
+__pycache__/
+*.pyc
+
+# Backup and temp files
+*.bak
+*.tmp
+*~
+
+# LinkedIn and mail content
+linkedin_reply_*.txt
+mail_content_*.txt
+
+# Subdirectories
+backend/
+extension/
+original_resume.tex
